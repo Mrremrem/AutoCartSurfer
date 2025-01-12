@@ -22,10 +22,12 @@ The supported moves include:
 # Requirements
 ### For Windows
 - [SFML 2.5.1](https://www.sfml-dev.org/) or later (Download here)
+- [CMake](https://en.wikipedia.org/wiki/CMake)
 - [MinGW-w64](https://en.wikipedia.org/wiki/MinGW) or [Visual Studio](https://en.wikipedia.org/wiki/Visual_Studio)
 - Windows 10 or later
 
 ### For Linux
 - [SFML 2.5.1](https://www.sfml-dev.org/) or later (install via your package manager, e.g., sudo apt install libsfml-dev or sudo pacman -S sfml for Arch users)
+- [CMake](https://en.wikipedia.org/wiki/CMake)
 - X11 libraries (libxtst-dev, etc.)
 - [Linux distribution with X11](https://en.wikipedia.org/wiki/X_Window_System) ([Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)) is not supported yet unfortunately)
