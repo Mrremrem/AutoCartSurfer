@@ -1,6 +1,6 @@
 # AutoCartSurfer
 
-Automate Cart Surfer gameplay from Club Penguin with ease !!!
+### Automate Cart Surfer gameplay from Club Penguin with ease !!!
 
 ![Minecart Snoo](Minecart%20Snoo.png)
 
