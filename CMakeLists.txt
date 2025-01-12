@@ -14,7 +14,8 @@ find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 find_package(X11 REQUIRED)
 
 # Add the executable
-add_executable(AutoCartSurfer AutoCartSurfer.cpp KeyboardManager.cpp)
+add_executable(AutoCartSurfer AutoCartSurfer.cpp KeyboardManager.cpp PixelManager.cpp
+               CartSurferEngine.cpp)
 
 # Link the libraries
 target_link_libraries(AutoCartSurfer 

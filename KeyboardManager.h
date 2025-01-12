@@ -4,9 +4,13 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <X11/Xlib.h>
-#include <X11/Xutil.h>
-#include <X11/extensions/XTest.h>
+
+#ifdef _WIN32
+    #include <windows.h>
+#elif defined(__linux__)
+    #include <X11/Xutil.h>
+    #include <X11/extensions/XTest.h>
+#endif
 
 /*
  * Simulates pressing a key
