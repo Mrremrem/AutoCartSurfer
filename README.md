@@ -2,6 +2,8 @@
 
 Automate Cart Surfer gameplay from Club Penguin with ease !!!
 
+![Minecart Snoo](Minecart%20Snoo.png)
+
 AutoCartSurfer is a cross-platform automation tool for the [Cart Surfer mini-game](https://clubpenguin.fandom.com/wiki/Cart_Surfer) from [Club Penguin](https://en.wikipedia.org/wiki/Club_Penguin), tested and verified to work with Club Penguin Journey (CPJ) and Club Penguin Legacy (CPL). Whether you're aiming to rack up coins or perfect your moves, this tool simplifies gameplay with efficient and customizable actions.
 
 # Features
