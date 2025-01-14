@@ -1,0 +1,6 @@
+# Syntax
+# <Type> <x pos> <y pos>
+# Yours truly, Snoo <3
+LEFT_ARROW_POS 343 769
+RIGHT_ARROW_POS 1499 698
+COINS_EARNED_SCREEN_POS 1184 448

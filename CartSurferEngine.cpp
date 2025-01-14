@@ -1,26 +1,26 @@
 #include "CartSurferEngine.h"
 #include <cmath>
 
-CartSurferEngine::CartSurferEngine(){
-    scoreHundred = true;
-    isArrowBeingProcessed = false;
-    Direction cartDirection = Direction::Forward;
-    isCartDown = false;
-    hasFinished = false;
-}
+CartSurferEngine::CartSurferEngine(sf::Vector2i LEFT_ARROW_POS, sf::Vector2i RIGHT_ARROW_POS, 
+                    sf::Vector2i COINS_EARNED_SCREEN_POS):
+LEFT_ARROW_POS(LEFT_ARROW_POS),
+RIGHT_ARROW_POS(RIGHT_ARROW_POS),
+COINS_EARNED_SCREEN_POS(COINS_EARNED_SCREEN_POS),
+scoreHundred(true),
+isArrowBeingProcessed(false),
+minecartDirection(Direction::Forward),
+isCartDown(false),
+hasFinished(false) {}
 
 void CartSurferEngine::run() {
     // Position constants
     const sf::Color BLACK(0, 0, 0); // Color for arrow
     const sf::Color BLUE(2, 128, 205); // Color for coin screen
-    const sf::Vector2i LEFT_ARROW(343, 769); // Left arrow position
-    const sf::Vector2i RIGHT_ARROW(1499, 698); // Right arrow position
-    const sf::Vector2i COINS_EARNED_SCREEN(1184, 448); // Coins earned screen position
 
     // Tests if cart must go left, right, or game has finished
-    bool hasLeftArrow = PixelManager::getPixelColor(LEFT_ARROW) == BLACK;
-    bool hasRightArrow = PixelManager::getPixelColor(RIGHT_ARROW) == BLACK;
-    hasFinished = PixelManager::getPixelColor(COINS_EARNED_SCREEN) == BLUE;
+    bool hasLeftArrow = PixelManager::getPixelColor(LEFT_ARROW_POS) == BLACK;
+    bool hasRightArrow = PixelManager::getPixelColor(RIGHT_ARROW_POS) == BLACK;
+    hasFinished = PixelManager::getPixelColor(COINS_EARNED_SCREEN_POS) == BLUE;
 
     if (!hasFinished) {
         handleMinecart(hasLeftArrow, hasRightArrow);
