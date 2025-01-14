@@ -31,3 +31,9 @@ The supported moves include:
 - [CMake](https://en.wikipedia.org/wiki/CMake)
 - X11 libraries (libxtst-dev, etc.)
 - [Linux distribution with X11](https://en.wikipedia.org/wiki/X_Window_System) ([Wayland](https://en.wikipedia.org/wiki/Wayland_(protocol)) is not supported yet unfortunately)
+
+### How to use:
+- Download or clone config.txt from github.com/Mrremrem/AutoCartSurfer example and place it in the same directory as the executable
+- Edit LEFT_ARROW_POS, RIGHT_ARROW_POS, and COINS_EARNED_SCREEN_POS with your resolution, respectively
+- Left and right arrow positions need to point at a black arrow, preferably at the bottom on the largest frame for best results
+- Coins earned screen position would need to point at the blue coins earned screen (as long as it's blue)
