@@ -1,6 +1,12 @@
 # Syntax
 # <Type> <x pos> <y pos>
 # Yours truly, Snoo <3
+
+# With RGB(0, 0, 0)
 LEFT_ARROW_POS 343 769
+
+# With RGB(0, 0, 0)
 RIGHT_ARROW_POS 1499 698
+
+# With RGB(2, 128, 205)
 COINS_EARNED_SCREEN_POS 1184 448
