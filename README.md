@@ -34,6 +34,6 @@ The supported moves include:
 
 ### How to use:
 - Download or clone config.txt from github.com/Mrremrem/AutoCartSurfer example and place it in the same directory as the executable
-- Edit LEFT_ARROW_POS, RIGHT_ARROW_POS, and COINS_EARNED_SCREEN_POS with your resolution, respectively
+- Edit LEFT_ARROW_POS, RIGHT_ARROW_POS, and COINS_EARNED_SCREEN_POS with your resolution, respectively (You can use [Just a Color Picker](https://annystudio.com/software/colorpicker/) to find each RGB value coordinate
 - Left and right arrow positions need to point at a black arrow, preferably at the bottom on the largest frame for best results
 - Coins earned screen position would need to point at the blue coins earned screen (as long as it's blue)
